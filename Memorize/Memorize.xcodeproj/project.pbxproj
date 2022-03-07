@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1104A4278C7BD3002AA729 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC1104A3278C7BD3002AA729 /* MemoryGame.swift */; };
+		DC6B8E3627A2B20100E39992 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6B8E3527A2B20100E39992 /* Cardify.swift */; };
+		DC85F1AA2788DC2700E8D146 /* MemorizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85F1A92788DC2700E8D146 /* MemorizeApp.swift */; };
+		DC85F1AC2788DC2700E8D146 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85F1AB2788DC2700E8D146 /* EmojiMemoryGameView.swift */; };
+		DC85F1AE2788DC2800E8D146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC85F1AD2788DC2800E8D146 /* Assets.xcassets */; };
+		DC85F1B12788DC2800E8D146 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC85F1B02788DC2800E8D146 /* Preview Assets.xcassets */; };
+		DC85F1BB2788DC2800E8D146 /* MemorizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85F1BA2788DC2800E8D146 /* MemorizeTests.swift */; };
+		DC85F1C52788DC2800E8D146 /* MemorizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85F1C42788DC2800E8D146 /* MemorizeUITests.swift */; };
+		DC85F1C72788DC2800E8D146 /* MemorizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC85F1C62788DC2800E8D146 /* MemorizeUITestsLaunchTests.swift */; };
+		DCF2C38527A1B0A400410C6B /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2C38427A1B0A400410C6B /* AspectVGrid.swift */; };
+		DCF2C38727A1C15800410C6B /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF2C38627A1C15800410C6B /* Pie.swift */; };
+		DCFF810A27984A7F008B91A7 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFF810927984A7F008B91A7 /* EmojiMemoryGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC85F1B72788DC2800E8D146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC85F19E2788DC2700E8D146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC85F1A52788DC2700E8D146;
+			remoteInfo = Memorize;
+		};
+		DC85F1C12788DC2800E8D146 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC85F19E2788DC2700E8D146 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC85F1A52788DC2700E8D146;
+			remoteInfo = Memorize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC1104A3278C7BD3002AA729 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		DC6B8E3527A2B20100E39992 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
+		DC85F1A62788DC2700E8D146 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC85F1A92788DC2700E8D146 /* MemorizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeApp.swift; sourceTree = "<group>"; };
+		DC85F1AB2788DC2700E8D146 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; tabWidth = 2; };
+		DC85F1AD2788DC2800E8D146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC85F1B02788DC2800E8D146 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC85F1B62788DC2800E8D146 /* MemorizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC85F1BA2788DC2800E8D146 /* MemorizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeTests.swift; sourceTree = "<group>"; };
+		DC85F1C02788DC2800E8D146 /* MemorizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC85F1C42788DC2800E8D146 /* MemorizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITests.swift; sourceTree = "<group>"; };
+		DC85F1C62788DC2800E8D146 /* MemorizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DCF2C38427A1B0A400410C6B /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = SOURCE_ROOT; };
+		DCF2C38627A1C15800410C6B /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		DCFF810927984A7F008B91A7 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC85F1A32788DC2700E8D146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85F1B32788DC2800E8D146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85F1BD2788DC2800E8D146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC85F19D2788DC2700E8D146 = {
+			isa = PBXGroup;
+			children = (
+				DC85F1A82788DC2700E8D146 /* Memorize */,
+				DC85F1B92788DC2800E8D146 /* MemorizeTests */,
+				DC85F1C32788DC2800E8D146 /* MemorizeUITests */,
+				DC85F1A72788DC2700E8D146 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC85F1A72788DC2700E8D146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC85F1A62788DC2700E8D146 /* Memorize.app */,
+				DC85F1B62788DC2800E8D146 /* MemorizeTests.xctest */,
+				DC85F1C02788DC2800E8D146 /* MemorizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC85F1A82788DC2700E8D146 /* Memorize */ = {
+			isa = PBXGroup;
+			children = (
+				DCF2C38427A1B0A400410C6B /* AspectVGrid.swift */,
+				DCFF810927984A7F008B91A7 /* EmojiMemoryGame.swift */,
+				DC85F1A92788DC2700E8D146 /* MemorizeApp.swift */,
+				DC85F1AB2788DC2700E8D146 /* EmojiMemoryGameView.swift */,
+				DC6B8E3527A2B20100E39992 /* Cardify.swift */,
+				DCF2C38627A1C15800410C6B /* Pie.swift */,
+				DC1104A3278C7BD3002AA729 /* MemoryGame.swift */,
+				DC85F1AD2788DC2800E8D146 /* Assets.xcassets */,
+				DC85F1AF2788DC2800E8D146 /* Preview Content */,
+			);
+			path = Memorize;
+			sourceTree = "<group>";
+		};
+		DC85F1AF2788DC2800E8D146 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC85F1B02788DC2800E8D146 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC85F1B92788DC2800E8D146 /* MemorizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC85F1BA2788DC2800E8D146 /* MemorizeTests.swift */,
+			);
+			path = MemorizeTests;
+			sourceTree = "<group>";
+		};
+		DC85F1C32788DC2800E8D146 /* MemorizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC85F1C42788DC2800E8D146 /* MemorizeUITests.swift */,
+				DC85F1C62788DC2800E8D146 /* MemorizeUITestsLaunchTests.swift */,
+			);
+			path = MemorizeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC85F1A52788DC2700E8D146 /* Memorize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC85F1CA2788DC2800E8D146 /* Build configuration list for PBXNativeTarget "Memorize" */;
+			buildPhases = (
+				DC85F1A22788DC2700E8D146 /* Sources */,
+				DC85F1A32788DC2700E8D146 /* Frameworks */,
+				DC85F1A42788DC2700E8D146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Memorize;
+			productName = Memorize;
+			productReference = DC85F1A62788DC2700E8D146 /* Memorize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC85F1B52788DC2800E8D146 /* MemorizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC85F1CD2788DC2800E8D146 /* Build configuration list for PBXNativeTarget "MemorizeTests" */;
+			buildPhases = (
+				DC85F1B22788DC2800E8D146 /* Sources */,
+				DC85F1B32788DC2800E8D146 /* Frameworks */,
+				DC85F1B42788DC2800E8D146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC85F1B82788DC2800E8D146 /* PBXTargetDependency */,
+			);
+			name = MemorizeTests;
+			productName = MemorizeTests;
+			productReference = DC85F1B62788DC2800E8D146 /* MemorizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC85F1BF2788DC2800E8D146 /* MemorizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC85F1D02788DC2800E8D146 /* Build configuration list for PBXNativeTarget "MemorizeUITests" */;
+			buildPhases = (
+				DC85F1BC2788DC2800E8D146 /* Sources */,
+				DC85F1BD2788DC2800E8D146 /* Frameworks */,
+				DC85F1BE2788DC2800E8D146 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC85F1C22788DC2800E8D146 /* PBXTargetDependency */,
+			);
+			name = MemorizeUITests;
+			productName = MemorizeUITests;
+			productReference = DC85F1C02788DC2800E8D146 /* MemorizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC85F19E2788DC2700E8D146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DC85F1A52788DC2700E8D146 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DC85F1B52788DC2800E8D146 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DC85F1A52788DC2700E8D146;
+					};
+					DC85F1BF2788DC2800E8D146 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DC85F1A52788DC2700E8D146;
+					};
+				};
+			};
+			buildConfigurationList = DC85F1A12788DC2700E8D146 /* Build configuration list for PBXProject "Memorize" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC85F19D2788DC2700E8D146;
+			productRefGroup = DC85F1A72788DC2700E8D146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC85F1A52788DC2700E8D146 /* Memorize */,
+				DC85F1B52788DC2800E8D146 /* MemorizeTests */,
+				DC85F1BF2788DC2800E8D146 /* MemorizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC85F1A42788DC2700E8D146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC85F1B12788DC2800E8D146 /* Preview Assets.xcassets in Resources */,
+				DC85F1AE2788DC2800E8D146 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85F1B42788DC2800E8D146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85F1BE2788DC2800E8D146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC85F1A22788DC2700E8D146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1104A4278C7BD3002AA729 /* MemoryGame.swift in Sources */,
+				DC6B8E3627A2B20100E39992 /* Cardify.swift in Sources */,
+				DC85F1AC2788DC2700E8D146 /* EmojiMemoryGameView.swift in Sources */,
+				DCF2C38727A1C15800410C6B /* Pie.swift in Sources */,
+				DC85F1AA2788DC2700E8D146 /* MemorizeApp.swift in Sources */,
+				DCF2C38527A1B0A400410C6B /* AspectVGrid.swift in Sources */,
+				DCFF810A27984A7F008B91A7 /* EmojiMemoryGame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85F1B22788DC2800E8D146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC85F1BB2788DC2800E8D146 /* MemorizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC85F1BC2788DC2800E8D146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC85F1C72788DC2800E8D146 /* MemorizeUITestsLaunchTests.swift in Sources */,
+				DC85F1C52788DC2800E8D146 /* MemorizeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC85F1B82788DC2800E8D146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC85F1A52788DC2700E8D146 /* Memorize */;
+			targetProxy = DC85F1B72788DC2800E8D146 /* PBXContainerItemProxy */;
+		};
+		DC85F1C22788DC2800E8D146 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC85F1A52788DC2700E8D146 /* Memorize */;
+			targetProxy = DC85F1C12788DC2800E8D146 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC85F1C82788DC2800E8D146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC85F1C92788DC2800E8D146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC85F1CB2788DC2800E8D146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyms.Memorize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC85F1CC2788DC2800E8D146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Memorize/Preview Content\"";
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyms.Memorize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC85F1CE2788DC2800E8D146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyms.MemorizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize.app/Memorize";
+			};
+			name = Debug;
+		};
+		DC85F1CF2788DC2800E8D146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyms.MemorizeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Memorize.app/Memorize";
+			};
+			name = Release;
+		};
+		DC85F1D12788DC2800E8D146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyms.MemorizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memorize;
+			};
+			name = Debug;
+		};
+		DC85F1D22788DC2800E8D146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = arseniyms.MemorizeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Memorize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC85F1A12788DC2700E8D146 /* Build configuration list for PBXProject "Memorize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC85F1C82788DC2800E8D146 /* Debug */,
+				DC85F1C92788DC2800E8D146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC85F1CA2788DC2800E8D146 /* Build configuration list for PBXNativeTarget "Memorize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC85F1CB2788DC2800E8D146 /* Debug */,
+				DC85F1CC2788DC2800E8D146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC85F1CD2788DC2800E8D146 /* Build configuration list for PBXNativeTarget "MemorizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC85F1CE2788DC2800E8D146 /* Debug */,
+				DC85F1CF2788DC2800E8D146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC85F1D02788DC2800E8D146 /* Build configuration list for PBXNativeTarget "MemorizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC85F1D12788DC2800E8D146 /* Debug */,
+				DC85F1D22788DC2800E8D146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC85F19E2788DC2700E8D146 /* Project object */;
+}

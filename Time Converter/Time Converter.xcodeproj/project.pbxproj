@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC0BCBB827C3CB8F00D5E680 /* Time_ConverterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0BCBB727C3CB8F00D5E680 /* Time_ConverterApp.swift */; };
+		DC0BCBBA27C3CB8F00D5E680 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0BCBB927C3CB8F00D5E680 /* ContentView.swift */; };
+		DC0BCBBC27C3CB9000D5E680 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0BCBBB27C3CB9000D5E680 /* Assets.xcassets */; };
+		DC0BCBBF27C3CB9000D5E680 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC0BCBBE27C3CB9000D5E680 /* Preview Assets.xcassets */; };
+		DC0BCBC927C3CB9000D5E680 /* Time_ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0BCBC827C3CB9000D5E680 /* Time_ConverterTests.swift */; };
+		DC0BCBD327C3CB9000D5E680 /* Time_ConverterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0BCBD227C3CB9000D5E680 /* Time_ConverterUITests.swift */; };
+		DC0BCBD527C3CB9000D5E680 /* Time_ConverterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0BCBD427C3CB9000D5E680 /* Time_ConverterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DC0BCBC527C3CB9000D5E680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0BCBAC27C3CB8F00D5E680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0BCBB327C3CB8F00D5E680;
+			remoteInfo = "Time Converter";
+		};
+		DC0BCBCF27C3CB9000D5E680 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DC0BCBAC27C3CB8F00D5E680 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DC0BCBB327C3CB8F00D5E680;
+			remoteInfo = "Time Converter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DC0BCBB427C3CB8F00D5E680 /* Time Converter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Time Converter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0BCBB727C3CB8F00D5E680 /* Time_ConverterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ConverterApp.swift; sourceTree = "<group>"; };
+		DC0BCBB927C3CB8F00D5E680 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DC0BCBBB27C3CB9000D5E680 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC0BCBBE27C3CB9000D5E680 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DC0BCBC427C3CB9000D5E680 /* Time ConverterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ConverterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0BCBC827C3CB9000D5E680 /* Time_ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ConverterTests.swift; sourceTree = "<group>"; };
+		DC0BCBCE27C3CB9000D5E680 /* Time ConverterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Time ConverterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC0BCBD227C3CB9000D5E680 /* Time_ConverterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ConverterUITests.swift; sourceTree = "<group>"; };
+		DC0BCBD427C3CB9000D5E680 /* Time_ConverterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_ConverterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC0BCBB127C3CB8F00D5E680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BCBC127C3CB9000D5E680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BCBCB27C3CB9000D5E680 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC0BCBAB27C3CB8F00D5E680 = {
+			isa = PBXGroup;
+			children = (
+				DC0BCBB627C3CB8F00D5E680 /* Time Converter */,
+				DC0BCBC727C3CB9000D5E680 /* Time ConverterTests */,
+				DC0BCBD127C3CB9000D5E680 /* Time ConverterUITests */,
+				DC0BCBB527C3CB8F00D5E680 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC0BCBB527C3CB8F00D5E680 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BCBB427C3CB8F00D5E680 /* Time Converter.app */,
+				DC0BCBC427C3CB9000D5E680 /* Time ConverterTests.xctest */,
+				DC0BCBCE27C3CB9000D5E680 /* Time ConverterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC0BCBB627C3CB8F00D5E680 /* Time Converter */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BCBB727C3CB8F00D5E680 /* Time_ConverterApp.swift */,
+				DC0BCBB927C3CB8F00D5E680 /* ContentView.swift */,
+				DC0BCBBB27C3CB9000D5E680 /* Assets.xcassets */,
+				DC0BCBBD27C3CB9000D5E680 /* Preview Content */,
+			);
+			path = "Time Converter";
+			sourceTree = "<group>";
+		};
+		DC0BCBBD27C3CB9000D5E680 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BCBBE27C3CB9000D5E680 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DC0BCBC727C3CB9000D5E680 /* Time ConverterTests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BCBC827C3CB9000D5E680 /* Time_ConverterTests.swift */,
+			);
+			path = "Time ConverterTests";
+			sourceTree = "<group>";
+		};
+		DC0BCBD127C3CB9000D5E680 /* Time ConverterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DC0BCBD227C3CB9000D5E680 /* Time_ConverterUITests.swift */,
+				DC0BCBD427C3CB9000D5E680 /* Time_ConverterUITestsLaunchTests.swift */,
+			);
+			path = "Time ConverterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC0BCBB327C3CB8F00D5E680 /* Time Converter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0BCBD827C3CB9000D5E680 /* Build configuration list for PBXNativeTarget "Time Converter" */;
+			buildPhases = (
+				DC0BCBB027C3CB8F00D5E680 /* Sources */,
+				DC0BCBB127C3CB8F00D5E680 /* Frameworks */,
+				DC0BCBB227C3CB8F00D5E680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Time Converter";
+			productName = "Time Converter";
+			productReference = DC0BCBB427C3CB8F00D5E680 /* Time Converter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC0BCBC327C3CB9000D5E680 /* Time ConverterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0BCBDB27C3CB9000D5E680 /* Build configuration list for PBXNativeTarget "Time ConverterTests" */;
+			buildPhases = (
+				DC0BCBC027C3CB9000D5E680 /* Sources */,
+				DC0BCBC127C3CB9000D5E680 /* Frameworks */,
+				DC0BCBC227C3CB9000D5E680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0BCBC627C3CB9000D5E680 /* PBXTargetDependency */,
+			);
+			name = "Time ConverterTests";
+			productName = "Time ConverterTests";
+			productReference = DC0BCBC427C3CB9000D5E680 /* Time ConverterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DC0BCBCD27C3CB9000D5E680 /* Time ConverterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC0BCBDE27C3CB9000D5E680 /* Build configuration list for PBXNativeTarget "Time ConverterUITests" */;
+			buildPhases = (
+				DC0BCBCA27C3CB9000D5E680 /* Sources */,
+				DC0BCBCB27C3CB9000D5E680 /* Frameworks */,
+				DC0BCBCC27C3CB9000D5E680 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DC0BCBD027C3CB9000D5E680 /* PBXTargetDependency */,
+			);
+			name = "Time ConverterUITests";
+			productName = "Time ConverterUITests";
+			productReference = DC0BCBCE27C3CB9000D5E680 /* Time ConverterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC0BCBAC27C3CB8F00D5E680 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					DC0BCBB327C3CB8F00D5E680 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					DC0BCBC327C3CB9000D5E680 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DC0BCBB327C3CB8F00D5E680;
+					};
+					DC0BCBCD27C3CB9000D5E680 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = DC0BCBB327C3CB8F00D5E680;
+					};
+				};
+			};
+			buildConfigurationList = DC0BCBAF27C3CB8F00D5E680 /* Build configuration list for PBXProject "Time Converter" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC0BCBAB27C3CB8F00D5E680;
+			productRefGroup = DC0BCBB527C3CB8F00D5E680 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC0BCBB327C3CB8F00D5E680 /* Time Converter */,
+				DC0BCBC327C3CB9000D5E680 /* Time ConverterTests */,
+				DC0BCBCD27C3CB9000D5E680 /* Time ConverterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC0BCBB227C3CB8F00D5E680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0BCBBF27C3CB9000D5E680 /* Preview Assets.xcassets in Resources */,
+				DC0BCBBC27C3CB9000D5E680 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BCBC227C3CB9000D5E680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BCBCC27C3CB9000D5E680 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC0BCBB027C3CB8F00D5E680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0BCBBA27C3CB8F00D5E680 /* ContentView.swift in Sources */,
+				DC0BCBB827C3CB8F00D5E680 /* Time_ConverterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BCBC027C3CB9000D5E680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0BCBC927C3CB9000D5E680 /* Time_ConverterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC0BCBCA27C3CB9000D5E680 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC0BCBD527C3CB9000D5E680 /* Time_ConverterUITestsLaunchTests.swift in Sources */,
+				DC0BCBD327C3CB9000D5E680 /* Time_ConverterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DC0BCBC627C3CB9000D5E680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0BCBB327C3CB8F00D5E680 /* Time Converter */;
+			targetProxy = DC0BCBC527C3CB9000D5E680 /* PBXContainerItemProxy */;
+		};
+		DC0BCBD027C3CB9000D5E680 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DC0BCBB327C3CB8F00D5E680 /* Time Converter */;
+			targetProxy = DC0BCBCF27C3CB9000D5E680 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DC0BCBD627C3CB9000D5E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC0BCBD727C3CB9000D5E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC0BCBD927C3CB9000D5E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Time Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Time-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC0BCBDA27C3CB9000D5E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Time Converter/Preview Content\"";
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Time-Converter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DC0BCBDC27C3CB9000D5E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Time-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Converter.app/Time Converter";
+			};
+			name = Debug;
+		};
+		DC0BCBDD27C3CB9000D5E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Time-ConverterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Time Converter.app/Time Converter";
+			};
+			name = Release;
+		};
+		DC0BCBDF27C3CB9000D5E680 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Time-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Converter";
+			};
+			name = Debug;
+		};
+		DC0BCBE027C3CB9000D5E680 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H2WTHY4GCS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "arseniyms.Time-ConverterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Time Converter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC0BCBAF27C3CB8F00D5E680 /* Build configuration list for PBXProject "Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BCBD627C3CB9000D5E680 /* Debug */,
+				DC0BCBD727C3CB9000D5E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0BCBD827C3CB9000D5E680 /* Build configuration list for PBXNativeTarget "Time Converter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BCBD927C3CB9000D5E680 /* Debug */,
+				DC0BCBDA27C3CB9000D5E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0BCBDB27C3CB9000D5E680 /* Build configuration list for PBXNativeTarget "Time ConverterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BCBDC27C3CB9000D5E680 /* Debug */,
+				DC0BCBDD27C3CB9000D5E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC0BCBDE27C3CB9000D5E680 /* Build configuration list for PBXNativeTarget "Time ConverterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC0BCBDF27C3CB9000D5E680 /* Debug */,
+				DC0BCBE027C3CB9000D5E680 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC0BCBAC27C3CB8F00D5E680 /* Project object */;
+}
