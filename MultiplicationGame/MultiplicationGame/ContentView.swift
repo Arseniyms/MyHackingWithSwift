@@ -171,7 +171,7 @@ struct ContentView: View {
                         }
                         .foregroundColor(textColor)
                         .font(.title2)
-                        .padding(.horizontal)
+                        .padding()
                         .frame(maxWidth: 300)
                         .background(BackGroundColor)
                         .cornerRadius(20)
