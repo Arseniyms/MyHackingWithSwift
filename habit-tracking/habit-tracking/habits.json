@@ -1,0 +1,22 @@
+[
+    {
+        "id" : "running",
+        "description" : "Whether you want to run to lose weight, get outside more, have a healthier lifestyle, increase happiness or to have more energy, you’ll need to build a running habit for the results you want.",
+        "emoji" : "🏃"
+    },
+    {
+        "id" : "smoking",
+        "description" : "Casual smoking is the act of smoking only occasionally, usually in a social situation or to relieve stress. A smoking habit is a physical addiction to tobacco products. ",
+        "emoji" : "🚬"
+    },
+    {
+        "id" : "smoking2",
+        "description" : "Casual smoking is the act of smoking only occasionally, usually in a social situation or to relieve stress. A smoking habit is a physical addiction to tobacco products. ",
+        "emoji" : "🚬"
+    },
+    {
+        "id" : "smoking1",
+        "description" : "Casual smoking is the act of smoking only occasionally, usually in a social situation or to relieve stress. A smoking habit is a physical addiction to tobacco products. ",
+        "emoji" : "🚬"
+    }
+]
