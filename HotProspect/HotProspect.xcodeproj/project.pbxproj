@@ -16,6 +16,8 @@
 		DC5064D2281C689B004B6B15 /* Prospects.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5064D1281C689B004B6B15 /* Prospects.swift */; };
 		DC5064D4281C7756004B6B15 /* ImageSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5064D3281C7756004B6B15 /* ImageSaver.swift */; };
 		DC5064D7281C796E004B6B15 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = DC5064D6281C796E004B6B15 /* CodeScanner */; };
+		DC549E36281E926F00791E8D /* Bundle-decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC549E35281E926F00791E8D /* Bundle-decoder.swift */; };
+		DC549E38281E94EC00791E8D /* prospects.json in Resources */ = {isa = PBXBuildFile; fileRef = DC549E37281E94EC00791E8D /* prospects.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,7 +30,8 @@
 		DC5064CF281C656A004B6B15 /* ProspectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectView.swift; sourceTree = "<group>"; };
 		DC5064D1281C689B004B6B15 /* Prospects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospects.swift; sourceTree = "<group>"; };
 		DC5064D3281C7756004B6B15 /* ImageSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSaver.swift; path = ../../PhotoFilter/PhotoFilter/ImageSaver.swift; sourceTree = "<group>"; };
-		DC5064D8281C821F004B6B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		DC549E35281E926F00791E8D /* Bundle-decoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-decoder.swift"; sourceTree = "<group>"; };
+		DC549E37281E94EC00791E8D /* prospects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = prospects.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +65,12 @@
 		DC5064BE281C650E004B6B15 /* HotProspect */ = {
 			isa = PBXGroup;
 			children = (
-				DC5064D8281C821F004B6B15 /* Info.plist */,
+				DC549E37281E94EC00791E8D /* prospects.json */,
 				DC5064D3281C7756004B6B15 /* ImageSaver.swift */,
 				DC5064BF281C650E004B6B15 /* HotProspectApp.swift */,
 				DC5064C1281C650E004B6B15 /* ContentView.swift */,
 				DC5064D1281C689B004B6B15 /* Prospects.swift */,
+				DC549E35281E926F00791E8D /* Bundle-decoder.swift */,
 				DC5064CD281C655F004B6B15 /* MeView.swift */,
 				DC5064CF281C656A004B6B15 /* ProspectView.swift */,
 				DC5064C3281C6510004B6B15 /* Assets.xcassets */,
@@ -148,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5064C7281C6510004B6B15 /* Preview Assets.xcassets in Resources */,
+				DC549E38281E94EC00791E8D /* prospects.json in Resources */,
 				DC5064C4281C6510004B6B15 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -160,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC5064D0281C656A004B6B15 /* ProspectView.swift in Sources */,
+				DC549E36281E926F00791E8D /* Bundle-decoder.swift in Sources */,
 				DC5064D4281C7756004B6B15 /* ImageSaver.swift in Sources */,
 				DC5064CE281C655F004B6B15 /* MeView.swift in Sources */,
 				DC5064C2281C650E004B6B15 /* ContentView.swift in Sources */,
